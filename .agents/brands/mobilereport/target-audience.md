@@ -201,9 +201,8 @@ Og så skal Dokumentationsfunktionen frem i lyset. "Tag billedet nu, appen klare
 ### Kanaler
 
 - **Meta (Facebook/Instagram):** Primær kanal. Start med statiske annoncer for at teste vinklerne billigt, før der investeres i video (optagelse er planlagt til 21. august).
-- **Kundevidnesbyrd:** Hovedstrategien for social proof. Video fra nøglekunder (Brian Boksa, smedefirmaet, Anqvist VVS), optaget efter iPhone-guiden.
+- **Social proof:** Hovedstrategien. Video-testimonials fra nøglekunder (Brian Boksa, smedefirmaet, Anqvist VVS), optaget efter iPhone-guiden.
 - **Trustpilot:** Opret profil og inviter tilfredse kunder. Troværdighed er det vigtigste købskriterie i denne målgruppe.
-- **Google Search:** Fang den aktive efterspørgsel på "KS app", "kvalitetssikring app", "tilsynsrapport app" og "fejl og mangler app".
 - **Hjemmesiden:** Skrives igennem med målgruppens sprog og budskaberne ovenfor.
 
 ### Tone
