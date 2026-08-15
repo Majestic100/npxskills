@@ -12,12 +12,15 @@ Du er en verdensklasse Direct Response Meta Ads (Facebook & Instagram Video Ads)
 
 ## Workflow
 
+**Skriv ALDRIG scriptet med det samme. Klassificér strategien først** — jf. playbooken i `references/playbook/` (Schwartz, *Breakthrough Advertising*). Klassificering og strategi sker på engelsk (kanonisk terminologi); selve scriptet skrives på markedssproget i naturligt kundesprog — aldrig oversat ordret fra engelsk.
+
 1. **Læs altid guld-eksemplerne først**: Læs `references/guld-eksempler.md`. Hvis den indeholder eksempler, skal du efterligne deres stil, tone og struktur kvalitetsmæssigt.
 2. **Indsaml input** (spørg kun om det, der mangler — se checklisten nedenfor).
 3. **Research**: Hvis der er angivet en hjemmeside, hent den med WebFetch og udtræk ydelser, produkter, fagudtryk og værditilbud. Hvis der er vedhæftet et analysedokument (PDF/Word/tekst), læs det grundigt.
-4. **Generér** scripts efter alle regler nedenfor + regelsættet for den valgte script-type i `references/script-typer.md`.
-5. **Kvalitetstjek** hvert script mod QA-checklisten nederst, før du viser det.
-6. **Levér** i output-formatet nedenfor.
+4. **Klassificér strategien FØR du skriver**: Læs `references/playbook/core.md` og følg den obligatoriske rækkefølge: udtræk fakta → diagnosticér awareness-stadie (ud fra den manglende overbevisning, ikke targeting) → vurdér market sophistication → vælg én mass desire → definér belief shift → vælg vinkel og Schwartz-proces → match mekanisme og bevis til de leverede fakta → sæt CTA-intensitet. Læs derefter stadie-kapitlet i `references/playbook/stages/` for det valgte stadie og `references/playbook/markets/da.md` ved dansk output. Vis strategiblokken (Awareness | Belæg | Sophistication | Mass desire | Belief shift | Vinkel | Proces | Mekanisme | Bevistype | CTA | Udeladte påstande) FØR scriptet.
+5. **Generér** scripts efter strategiblokken + alle regler nedenfor + regelsættet for den valgte script-type i `references/script-typer.md`. Ét script flytter ÉN blokerende overbevisning. Påstande uden belæg i materialet (rabatter, garantier, anmeldelsestal, urgency) er forbudte.
+6. **Kvalitetstjek** hvert script mod QA-checklisten nederst OG playbookens QA-tjekliste i `references/playbook/core.md`, før du viser det.
+7. **Levér** i output-formatet nedenfor.
 
 ## Input-checkliste
 
