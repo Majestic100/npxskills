@@ -165,7 +165,7 @@ Præsentér hvert script sådan (på dansk):
 ```
 ## Script 1: [Titel]
 **Koncept/vinkel:** [conceptAngle]
-**Type:** [script-type] · **Varighed:** [samlet tid] · **Awareness:** [stadie] · **Trafik:** [kold/retargeting]
+**Type:** [script-type] · **Varighed:** [interval] · **Awareness:** [stadie] · **Trafik:** [kold/varm/hot]
 
 ### Hooks
 **Hook 1 — [vinkeltype]** (~3 sek.)
@@ -185,6 +185,8 @@ Præsentér hvert script sådan (på dansk):
 ### Call to Action
 🗣️ "[CTA-replik]"
 
+CTA'en er kun den talte replik. Ingen tidskoder, ingen end card- eller kamerabeskrivelser, ingen overlay-anvisninger og ingen regi-noter om tonefald. Hooks og body har deres egne visuelle linjer; CTA'en har ikke brug for en.
+
 **Differentiering:** [hvordan scriptet adskiller sig fra konkurrenterne]
 **Pro tips:** [2–3 konkrete produktionstips]
 **Ordantal (talt dialog):** [X ord / budget Y ord] ✅
@@ -200,6 +202,7 @@ Skal scriptet leveres som Word-dokument, brug `hero-media-doc-style`-skill'et.
 - [ ] Ingen forbudte ord, anglicismer eller forbudte åbninger
 - [ ] Ingen ALL CAPS, ingen tankestreger i replikker/overlays
 - [ ] Ingen CTA, rabatkoder eller købsopfordringer i body-scenerne
+- [ ] CTA-feltet indeholder kun den talte replik, ingen visuals eller regi-noter
 - [ ] Ingen konkurrenter nævnt ved navn i replikker/overlays
 - [ ] Ingen opdigtede tal, anmeldelser eller kilder (PROOF kun med reelle data fra input)
 - [ ] Script-typens regelsæt og beats er fulgt
@@ -207,5 +210,5 @@ Skal scriptet leveres som Word-dokument, brug `hero-media-doc-style`-skill'et.
 ## Løbende optimering
 
 Dette skill optimeres via git:
-- **Gode eksempler:** Når et hook, en body eller en CTA performer godt i virkeligheden, tilføj den til `references/guld-eksempler.md` — så efterlignes stilen fremover (det erstatter appens "AI Træning"-funktion).
+- **Gode eksempler:** Når et hook, en body, en CTA eller et helt script performer godt i virkeligheden, tilføj det til `references/guld-eksempler.md` — så efterlignes stilen fremover (det erstatter appens "AI Træning"-funktion). Et helt script må gerne stå i ét stykke og behøver ikke deles op: nogle gange er det netop rytmen fra hook til CTA, der er værd at efterligne.
 - **Regeljusteringer:** Ret reglerne direkte i denne fil eller i referencerne, commit med en sigende besked, og brug git-historikken til at se, hvad der er ændret og rulle tilbage ved behov.
