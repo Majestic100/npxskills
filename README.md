@@ -4,13 +4,43 @@ Our shared library of Claude skills. Everything lives in this repo, both the ski
 
 Skills are grouped into *plugins* by category, so you install a whole topic at once, for example all SEO skills.
 
+## How skills work
+
+**Install once, then just ask.** Claude always sees the short description of every skill you have installed. When your request matches one, Claude opens the full skill by itself. You don't type a command each time. If Claude doesn't pick it up, name it: *"use the copywriting skill"*.
+
+**Where you install a skill decides where it works:**
+
+| Installed in | Works in | Use it for |
+|---|---|---|
+| Your account (from the organization library) | Every chat in the Claude app and every Claude Code session | Skills you use regularly. This is the default. |
+| One project folder (Claude Code only) | Only when Claude Code runs in that folder | A skill one project needs that you don't want everywhere |
+
+A skill you install starts working in your next new chat or session, not in the one that's already open.
+
+**Client context.** The marketing skills work much better when they know the client. Give them that context once per client:
+
+- **Claude app:** create a claude.ai *Project* per client. Ask Claude to use the `product-marketing` skill, and save the result in the project's knowledge. Every chat in that project then knows the client.
+- **Claude Code:** keep a folder per client. Run the `product-marketing` skill once there. It saves `.agents/product-marketing.md`, which the other marketing skills read automatically.
+
+**Good to know**
+
+- **Install what you use, not everything.** The more skills you have, the more Claude has to choose between, and the more often it picks the wrong one or none.
+- **Only add skills from sources we trust.** A skill can contain scripts, and they run with your permissions.
+- **Updates:** plugins from the organization library update centrally. Skills copied into a project folder do not; run `npx skills update` there.
+
 ## Install
 
 ### Colleagues in the Hero Media Claude organization (Claude app and Claude Code)
 
 The plugins are published to our Claude organization. Find them in the organization's plugin library on claude.ai and install the ones you want. They then work in both the Claude app and Claude Code, and you get updates when a new version is published.
 
-If you only install some of the marketing plugins, start with **marketing-strategy**: its `product-marketing` skill creates the product context file the other marketing skills read.
+If you only install some of the marketing plugins, start with **marketing-strategy**: its `product-marketing` skill creates the client context the other marketing skills read.
+
+**Just one skill in one project (Claude Code):** run this in the project folder. It copies only the skills you name into that project:
+
+```
+npx skills add majestic100/npxskills --skill ads --skill copywriting
+```
 
 ### Friends and others outside the organization
 
