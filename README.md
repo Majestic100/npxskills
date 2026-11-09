@@ -17,10 +17,14 @@ Skills are grouped into *plugins* by category, so you install a whole topic at o
 
 A skill you install starts working in your next new chat or session, not in the one that's already open.
 
-**Client context.** The marketing skills work much better when they know the client. Give them that context once per client:
+**Client context.** The marketing skills work much better when they know the client. Every client has one context document in Google Drive, `[ACTIVE] Clients/<Client>/00 Kundekontekst`, and the `client-context` skill (plugin `hero-media`) reads it for you in both the Claude app and Claude Code. Just name the client: *"write ad copy for World of Comfort"*.
 
-- **Claude app:** create a claude.ai *Project* per client. Ask Claude to use the `product-marketing` skill, and save the result in the project's knowledge. Every chat in that project then knows the client.
-- **Claude Code:** keep a folder per client. Run the `product-marketing` skill once there. It saves `.agents/product-marketing.md`, which the other marketing skills read automatically.
+| Where you work | Set up once per client |
+|---|---|
+| Claude app | A claude.ai *Project* named after the client, shared with the team, with the instruction: *"Dette projekt er for kunden <Client>. Brug client-context-skillet til at hente kundekonteksten fra Google Drive, før du laver noget for kunden."* |
+| Claude Code | A repo or folder per deliverable (e.g. the landing page) with a `CLAUDE.md` that says which client it's for |
+
+Because both read the same Drive document, context gathered in the Claude app is there when you build in Claude Code, and the other way round. New client? Ask Claude to *"set up <client> as a new client"*: it creates the folders and drafts the context document with you. Requires the Google Drive connector, on in the Claude app under *Settings → Connectors*.
 
 **Good to know**
 
@@ -72,7 +76,7 @@ By hand:
 
 <!-- CATALOG:BEGIN -->
 
-51 skills in 9 plugins. Click a skill name to read the full skill.
+52 skills in 10 plugins. Click a skill name to read the full skill.
 
 ### design (2 skills)
 
@@ -90,6 +94,14 @@ Find and install new skills from the open skills ecosystem (via npx skills). Cla
 | Skill | What it does | Source |
 |---|---|---|
 | [find-skills](plugins/find-skills/skills/find-skills/SKILL.md) | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. | [vercel-labs/skills](https://github.com/vercel-labs/skills) (MIT) |
+
+### hero-media (1 skill)
+
+Hero Media's own skills. client-context gives Claude each client's context from Google Drive, in both the Claude app and Claude Code. Install this for everyone.
+
+| Skill | What it does | Source |
+|---|---|---|
+| [client-context](plugins/hero-media/skills/client-context/SKILL.md) | Load, create or update a Hero Media client's context (who they are, products, audience, markets, brand voice, competitors, goals) from the client's "00 Kundekontekst" Google Doc in Google Drive. | Our own |
 
 ### marketing-ads (4 skills)
 

@@ -20,6 +20,12 @@
       "version": "1.0.0"
     },
     {
+      "name": "hero-media",
+      "source": "./plugins/hero-media",
+      "description": "Hero Media's own skills. client-context gives Claude each client's context from Google Drive, in both the Claude app and Claude Code. Install this for everyone.",
+      "version": "1.0.0"
+    },
+    {
       "name": "marketing-ads",
       "source": "./plugins/marketing-ads",
       "description": "Paid acquisition and measurement: ad campaigns, ad creative, analytics tracking and A/B testing.",
