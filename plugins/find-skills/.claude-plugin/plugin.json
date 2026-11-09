@@ -1,6 +1,6 @@
 {
   "name": "find-skills",
   "version": "1.0.0",
-  "description": "Find og installer nye skills fra økosystemet (via npx skills). Kun relevant i Claude Code.",
+  "description": "Find and install new skills from the open skills ecosystem (via npx skills). Claude Code only.",
   "author": {"name": "Hero Media"}
 }

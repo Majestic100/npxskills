@@ -1,0 +1,6 @@
+{
+  "name": "marketing-strategy",
+  "version": "1.0.0",
+  "description": "Marketing strategy and positioning: product-marketing context, marketing plans, ideas, customer research, competitor profiles, pricing, offers and launches. Install this first; the other marketing plugins read the product-marketing context it creates.",
+  "author": {"name": "Hero Media"}
+}

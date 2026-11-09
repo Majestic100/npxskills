@@ -1,102 +1,102 @@
 {
   "ab-testing": {
-    "plugin": "marketing",
+    "plugin": "marketing-ads",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/ab-testing/SKILL.md",
     "license": "MIT"
   },
   "ad-creative": {
-    "plugin": "marketing",
+    "plugin": "marketing-ads",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/ad-creative/SKILL.md",
     "license": "MIT"
   },
   "ads": {
-    "plugin": "marketing",
+    "plugin": "marketing-ads",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/ads/SKILL.md",
     "license": "MIT"
   },
   "ai-seo": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/ai-seo/SKILL.md",
     "license": "MIT"
   },
   "analytics": {
-    "plugin": "marketing",
+    "plugin": "marketing-ads",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/analytics/SKILL.md",
     "license": "MIT"
   },
   "aso": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/aso/SKILL.md",
     "license": "MIT"
   },
   "churn-prevention": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/churn-prevention/SKILL.md",
     "license": "MIT"
   },
   "co-marketing": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/co-marketing/SKILL.md",
     "license": "MIT"
   },
   "cold-email": {
-    "plugin": "marketing",
+    "plugin": "marketing-sales",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/cold-email/SKILL.md",
     "license": "MIT"
   },
   "community-marketing": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/community-marketing/SKILL.md",
     "license": "MIT"
   },
   "competitor-profiling": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/competitor-profiling/SKILL.md",
     "license": "MIT"
   },
   "competitors": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/competitors/SKILL.md",
     "license": "MIT"
   },
   "content-strategy": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/content-strategy/SKILL.md",
     "license": "MIT"
   },
   "copy-editing": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/copy-editing/SKILL.md",
     "license": "MIT"
   },
   "copywriting": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/copywriting/SKILL.md",
     "license": "MIT"
   },
   "cro": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/cro/SKILL.md",
     "license": "MIT"
   },
   "customer-research": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/customer-research/SKILL.md",
     "license": "MIT"
@@ -108,13 +108,13 @@
     "license": "MIT"
   },
   "directory-submissions": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/directory-submissions/SKILL.md",
     "license": "MIT"
   },
   "emails": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/emails/SKILL.md",
     "license": "MIT"
@@ -126,7 +126,7 @@
     "license": "MIT"
   },
   "free-tools": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/free-tools/SKILL.md",
     "license": "MIT"
@@ -138,127 +138,127 @@
     "license": "Apache-2.0"
   },
   "image": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/image/SKILL.md",
     "license": "MIT"
   },
   "launch": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/launch/SKILL.md",
     "license": "MIT"
   },
   "lead-magnets": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/lead-magnets/SKILL.md",
     "license": "MIT"
   },
   "marketing-council": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/marketing-council/SKILL.md",
     "license": "MIT"
   },
   "marketing-ideas": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/marketing-ideas/SKILL.md",
     "license": "MIT"
   },
   "marketing-loops": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/marketing-loops/SKILL.md",
     "license": "MIT"
   },
   "marketing-plan": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/marketing-plan/SKILL.md",
     "license": "MIT"
   },
   "marketing-psychology": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/marketing-psychology/SKILL.md",
     "license": "MIT"
   },
   "offers": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/offers/SKILL.md",
     "license": "MIT"
   },
   "onboarding": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/onboarding/SKILL.md",
     "license": "MIT"
   },
   "paywalls": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/paywalls/SKILL.md",
     "license": "MIT"
   },
   "popups": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/popups/SKILL.md",
     "license": "MIT"
   },
   "pricing": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/pricing/SKILL.md",
     "license": "MIT"
   },
   "product-marketing": {
-    "plugin": "marketing",
+    "plugin": "marketing-strategy",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/product-marketing/SKILL.md",
     "license": "MIT"
   },
   "programmatic-seo": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/programmatic-seo/SKILL.md",
     "license": "MIT"
   },
   "prospecting": {
-    "plugin": "marketing",
+    "plugin": "marketing-sales",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/prospecting/SKILL.md",
     "license": "MIT"
   },
   "public-relations": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/public-relations/SKILL.md",
     "license": "MIT"
   },
   "referrals": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/referrals/SKILL.md",
     "license": "MIT"
   },
   "revops": {
-    "plugin": "marketing",
+    "plugin": "marketing-sales",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/revops/SKILL.md",
     "license": "MIT"
   },
   "sales-enablement": {
-    "plugin": "marketing",
+    "plugin": "marketing-sales",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/sales-enablement/SKILL.md",
     "license": "MIT"
   },
   "schema": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/schema/SKILL.md",
     "license": "MIT"
@@ -270,37 +270,37 @@
     "license": "MIT"
   },
   "seo-audit": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/seo-audit/SKILL.md",
     "license": "MIT"
   },
   "signup": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/signup/SKILL.md",
     "license": "MIT"
   },
   "site-architecture": {
-    "plugin": "marketing",
+    "plugin": "marketing-seo",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/site-architecture/SKILL.md",
     "license": "MIT"
   },
   "sms": {
-    "plugin": "marketing",
+    "plugin": "marketing-conversion",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/sms/SKILL.md",
     "license": "MIT"
   },
   "social": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/social/SKILL.md",
     "license": "MIT"
   },
   "video": {
-    "plugin": "marketing",
+    "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
     "path": "skills/video/SKILL.md",
     "license": "MIT"

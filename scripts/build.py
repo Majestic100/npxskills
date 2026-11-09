@@ -116,14 +116,14 @@ def write_marketplace(plugins):
 def source_cell(src):
     s = src.get("source", "?")
     if s == "own":
-        return "Vores egen"
+        return "Our own"
     return f"[{s}](https://github.com/{s}) ({src.get('license', '?')})"
 
 
 def write_catalog(plugins):
     lines = [BEGIN, ""]
     total = sum(len(p["skills"]) for p in plugins)
-    lines.append(f"{total} skills i {len(plugins)} plugins. Klik på et skill-navn for at læse hele skillet.")
+    lines.append(f"{total} skills in {len(plugins)} plugins. Click a skill name to read the full skill.")
     lines.append("")
     for p in plugins:
         m = p["manifest"]
@@ -132,7 +132,7 @@ def write_catalog(plugins):
         lines.append("")
         lines.append(m.get("description", ""))
         lines.append("")
-        lines.append("| Skill | Hvad den gør | Kilde |")
+        lines.append("| Skill | What it does | Source |")
         lines.append("|---|---|---|")
         for s in p["skills"]:
             rel = s["dir"].relative_to(ROOT).as_posix()

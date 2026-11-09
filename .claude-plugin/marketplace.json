@@ -10,25 +10,55 @@
     {
       "name": "design",
       "source": "./plugins/design",
-      "description": "Frontend- og webdesign: undgå generiske AI-designs og byg sider med en tydelig visuel retning.",
+      "description": "Frontend and web design: avoid generic AI-looking interfaces and build pages with a clear visual direction.",
       "version": "1.0.0"
     },
     {
       "name": "find-skills",
       "source": "./plugins/find-skills",
-      "description": "Find og installer nye skills fra økosystemet (via npx skills). Kun relevant i Claude Code.",
+      "description": "Find and install new skills from the open skills ecosystem (via npx skills). Claude Code only.",
       "version": "1.0.0"
     },
     {
-      "name": "marketing",
-      "source": "./plugins/marketing",
-      "description": "47 marketing-skills: SEO, AI-søgning, copywriting, e-mail, annoncer, CRO, pricing, launch, salg, analytics og strategi. Fra coreyhaines31/marketingskills.",
+      "name": "marketing-ads",
+      "source": "./plugins/marketing-ads",
+      "description": "Paid acquisition and measurement: ad campaigns, ad creative, analytics tracking and A/B testing.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "marketing-content",
+      "source": "./plugins/marketing-content",
+      "description": "Content and copy: copywriting, copy editing, content strategy, social, video, images, lead magnets, free tools, community, PR and co-marketing.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "marketing-conversion",
+      "source": "./plugins/marketing-conversion",
+      "description": "Conversion and retention: CRO, signup and onboarding flows, paywalls, popups, lifecycle email and SMS, referrals and churn prevention.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "marketing-sales",
+      "source": "./plugins/marketing-sales",
+      "description": "Sales and outbound: prospecting, cold email, sales enablement and RevOps.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "marketing-seo",
+      "source": "./plugins/marketing-seo",
+      "description": "Search visibility: SEO audits, AI search (AEO/GEO), programmatic SEO, schema markup, site architecture, comparison pages, directory submissions and app store optimization.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "marketing-strategy",
+      "source": "./plugins/marketing-strategy",
+      "description": "Marketing strategy and positioning: product-marketing context, marketing plans, ideas, customer research, competitor profiles, pricing, offers and launches. Install this first; the other marketing plugins read the product-marketing context it creates.",
       "version": "1.0.0"
     },
     {
       "name": "security-audit",
       "source": "./plugins/security-audit",
-      "description": "Sikkerhedsaudit af et kodebase med isolerede agenter, fra rekognoscering til verificerede fund og rapport. Fra Cloudflare.",
+      "description": "Security audit of a codebase using isolated agents, from reconnaissance to verified findings and a report. From Cloudflare.",
       "version": "1.0.0"
     }
   ]
