@@ -1,0 +1,6 @@
+{
+  "name": "security-audit",
+  "version": "1.0.0",
+  "description": "Security audit of a codebase using isolated agents, from reconnaissance to verified findings and a report. From Cloudflare.",
+  "author": {"name": "Hero Media"}
+}
