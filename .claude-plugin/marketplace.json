@@ -1,0 +1,35 @@
+{
+  "name": "heromedia-skills",
+  "owner": {
+    "name": "Hero Media"
+  },
+  "metadata": {
+    "description": "Hero Media's shared skills for Claude Code and the Claude app."
+  },
+  "plugins": [
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Frontend- og webdesign: undgå generiske AI-designs og byg sider med en tydelig visuel retning.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "find-skills",
+      "source": "./plugins/find-skills",
+      "description": "Find og installer nye skills fra økosystemet (via npx skills). Kun relevant i Claude Code.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "marketing",
+      "source": "./plugins/marketing",
+      "description": "47 marketing-skills: SEO, AI-søgning, copywriting, e-mail, annoncer, CRO, pricing, launch, salg, analytics og strategi. Fra coreyhaines31/marketingskills.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "security-audit",
+      "source": "./plugins/security-audit",
+      "description": "Sikkerhedsaudit af et kodebase med isolerede agenter, fra rekognoscering til verificerede fund og rapport. Fra Cloudflare.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "security-audit",
+  "version": "1.0.0",
+  "description": "Sikkerhedsaudit af et kodebase med isolerede agenter, fra rekognoscering til verificerede fund og rapport. Fra Cloudflare.",
+  "author": {"name": "Hero Media"}
+}

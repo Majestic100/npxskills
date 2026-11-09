@@ -1,0 +1,6 @@
+{
+  "name": "find-skills",
+  "version": "1.0.0",
+  "description": "Find og installer nye skills fra økosystemet (via npx skills). Kun relevant i Claude Code.",
+  "author": {"name": "Hero Media"}
+}
