@@ -1,0 +1,6 @@
+{
+  "name": "hero-media",
+  "version": "1.0.0",
+  "description": "Hero Media's own skills. client-context gives Claude each client's context from Google Drive, in both the Claude app and Claude Code. Install this for everyone.",
+  "author": {"name": "Hero Media"}
+}

@@ -41,6 +41,12 @@
     "path": "skills/churn-prevention/SKILL.md",
     "license": "MIT"
   },
+  "client-context": {
+    "plugin": "hero-media",
+    "source": "own",
+    "path": "",
+    "license": "own"
+  },
   "co-marketing": {
     "plugin": "marketing-content",
     "source": "coreyhaines31/marketingskills",
