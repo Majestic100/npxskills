@@ -17,7 +17,7 @@ Skills are grouped into *plugins* by category, so you install a whole topic at o
 
 A skill you install starts working in your next new chat or session, not in the one that's already open.
 
-**Client context.** The marketing skills work much better when they know the client. Every client has one context document in Google Drive, `[ACTIVE] Clients/<Client>/00 Kundekontekst`, and the `client-context` skill (plugin `hero-media`) reads it for you in both the Claude app and Claude Code. Just name the client: *"write ad copy for World of Comfort"*.
+**Client context.** The marketing skills work much better when they know the client. Every client has a Client Context document and a Learning Log in Google Drive, in `[ACTIVE] Clients/<Client>/Context`, and the `client-context` skill (plugin `hero-media`) reads it for you in both the Claude app and Claude Code. Just name the client: *"write ad copy for MobileReport"*. The structure comes from the master template `Client Context I Template v1`. To change it, ask Claude, so the template, the SOP and the skill stay in sync.
 
 | Where you work | Set up once per client |
 |---|---|
@@ -101,7 +101,7 @@ Hero Media's own skills. client-context gives Claude each client's context from 
 
 | Skill | What it does | Source |
 |---|---|---|
-| [client-context](plugins/hero-media/skills/client-context/SKILL.md) | Load, create or update a Hero Media client's context (who they are, products, audience, markets, brand voice, competitors, goals) from the client's "00 Kundekontekst" Google Doc in Google Drive. | Our own |
+| [client-context](plugins/hero-media/skills/client-context/SKILL.md) | Load, create or update a Hero Media client's Client Context (product, price, audience, audience language, competitors, brand voice, visual identity, claims and rules, goals, tracking, links, learnings) and Learning Log from the client's Context folder in Google Drive. | Our own |
 
 ### marketing-ads (4 skills)
 
