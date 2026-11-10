@@ -1,80 +1,39 @@
-# Kundekontekst: <Kundenavn>
+# Client Context: structure (Template v1)
 
-**Version:** v1
-**Sidst opdateret:** YYYY-MM-DD af <navn>
-**Ejer af dokumentet:** <navn hos Hero Media, der holder det opdateret>
-**Website:** <url>
+This mirrors the master Google Doc `Client Context I Template v1` in `TEMPLATES/[TEMPLATE] Client Folder/Context`. The Google Doc is the master. If they differ, the Google Doc wins, and this file must be updated (see "Change the structure" in SKILL.md).
 
-> Ét dokument pr. kunde. Det er den fælles kilde, som både teamet og Claude arbejder ud fra.
-> Skriv konkret: eksempler, tal, hex-koder og links slår adjektiver. Hold dokumentet på 2-4 sider, og link til detaljer (brand guide, produktark) i stedet for at kopiere dem ind.
+The document is written in Danish. Examples and customer quotes are in the client's own language.
 
-## 1. Kunden kort
-- **Én linje:** hvad kunden er og gør
-- **Branche og forretningsmodel:** fx webshop, fysisk butik, B2B-service
-- **Prisniveau:** budget, mellem, premium
-- **Sæson og vigtige datoer:** højsæson, kampagneperioder, Black Friday ja/nej
+## Header
+- Title: `Client Context I <Kundenavn>`
+- First line: `Template v1. Version <x.y>, <status>. Sidst opdateret <dato>. Ejer: <navn>.`
+- Introduktion, a note explaining `[CONFIRM]` and `[FILL IN: ...]`, a warning that the structure is only changed through Claude, and a table of contents.
 
-## 2. Produkter
-- **Produktdata:** link til produktark eller feed (navn, pris, link, billede). Skriv ikke hele sortimentet ind her.
-- **Produktfokus nu:** de 3-5 produkter vi skal prioritere eller analysere, og hvorfor (bedst sælgende, højest margin, nyt, lager der skal ud)
-- **Produkter vi ikke må fremhæve**, og hvorfor
-- **Tilbud og rabatregler:** hvad vi må love, og hvad vi ikke må
+## Sections (H1, in this order)
+1. **Kunden kort:** one line, company details, business model, origin, contacts, how the name is written.
+2. **Produkt og pris:** what it does, product focus (3 to 5 and why), what not to highlight, prices, offers and guarantees.
+3. **Marked og sprog:** countries, languages, differences per market.
+4. **Målgruppe:** core customer, segments (Primær, Sekundær, Ikke målgruppe), how they buy (trigger, decision, barriers, where they are), source and whether it is validated.
+5. **Målgruppens sprog:** verbatim quotes with source, and "Skriv / Ikke" pairs.
+6. **Konkurrenter og positionering:** who they compare with, where the client wins and loses, "Gør / Gør ikke".
+7. **Brand voice:** tone, "Skriv / Ikke" examples with why, fixed rules.
+8. **Visuel identitet:** colors (name, hex, use), font, logo files, brand guide, "Vis / Ikke".
+9. **Påstande og regler:** Må bruges, Kræver godkendelse, Må ikke bruges, Afklares.
+10. **Mål:** business goal with number and date, primary conversion, value of a new customer, budget. Each with "Nu" and "Kilde".
+11. **Kanaler og tracking:** channels, website platform, tracking status, previous agencies, testimonials.
+12. **Links og datakilder:** website, Learning Log, ad accounts, analytics, ClickUp, Slack, Frame.io, Canva, profiles.
+13. **Vigtigste learnings:** only the 5 to 10 that apply now. The rest is in the Learning Log.
+14. **Åbne spørgsmål:** numbered.
+15. **Ændringslog** (template only): one line per template version.
 
-## 3. Markeder og sprog
-- **Markeder:** fx DK, SE, NL, BE, TR
-- **Sprog pr. marked**, og hvem der godkender oversættelser
-- **Forskelle pr. marked:** priser, produkter, tone
+## Color labels (hm-doc-layout palette)
+- Green `#bbffae`: Primær, Skriv, Gør, Vis, Må bruges
+- Yellow orange `#ffc827`: Sekundær, Kræver godkendelse
+- Red `#ff5e5e`: Ikke målgruppe, Ikke, Gør ikke, Må ikke bruges
+- Cyan `#7efcff`: Afklares
 
-## 4. Målgruppe
-- **Primær målgruppe:** hvem, alder, situation
-- **Hvad de vil opnå** (jobs to be done)
-- **Smertepunkter:** hvad der frustrerer dem i dag
-- **Indvendinger:** hvorfor de ikke køber, og hvad der overbeviser dem
-- **Kundens egne ord:** 3-5 ordrette citater fra anmeldelser, mails eller kommentarer
-- **Hvem der ikke er målgruppen**
-
-## 5. Konkurrenter
-- **Direkte konkurrenter** med links, og hvor de er svagere
-- **Hvorfor kunder vælger <kunden>**
-
-## 6. Brand voice
-- **Tone:** 3-5 ord, fx varm, direkte, faglig
-- **Eksempler vi elsker:** 2-3 tekster eller opslag, der rammer tonen (link eller indsæt)
-- **Eksempler vi ikke vil have:** 1-2 ting, der rammer forkert, og hvorfor
-- **Ord og vendinger vi bruger**
-- **Ord og vendinger vi undgår**
-- **Du eller De, emojis ja/nej, engelske ord ja/nej**
-
-## 7. Visuel identitet
-- **Farver:** navn + hex-kode, og hvad hver bruges til (primær, sekundær, baggrund, knapper)
-- **Fonte:** navn på overskrift- og brødtekst-font, og hvor de findes (Google Fonts eller filer i `01 Brand`)
-- **Logo:** filer i `01 Brand` (SVG og PNG, lys og mørk version)
-- **Billedstil:** foto eller grafik, lyse eller mørke, mennesker eller produkter, link til 3-5 eksempler
-- **Brand guide:** link, hvis den findes
-- **Ting vi aldrig gør visuelt**
-
-## 8. Juridisk og regler
-- **Anprisninger:** fx sundhed, miljø, "bedst i test", som kræver belæg eller er forbudt
-- **Branchekrav og platformsregler** (fx Meta-regler for kategorien)
-
-## 9. Kanaler, teknik og leverancer
-- **Hvad vi leverer:** fx content, annoncer på Meta, SEO, landingssider
-- **Aktive kanaler og konti**
-- **Website-platform:** fx Shopify, WordPress, og hvor nye landingssider skal ligge
-- **Tracking:** hvad der er sat op (GA4, Meta-pixel), og hvem der har adgang. Skriv aldrig adgangskoder her.
-- **Godkendelse:** hvem hos kunden godkender hvad, og hvor lang tid det tager
-
-## 10. Mål og tal
-- **Kundens forretningsmål**
-- **Vigtigste konvertering:** køb, booking, lead
-- **Nuværende tal**, hvis kendt (konverteringsrate, ROAS, gennemsnitlig ordre)
-- **Beviser vi må bruge:** anmeldelser, cases, tal, kendte kunder
-
-## 11. Vigtige links
-- Content OS, produktark, brand guide, tidligere kampagner, rapporter
-
-## Åbne spørgsmål
-- Ting vi mangler at få afklaret
-
-## Ændringslog
-- v1 YYYY-MM-DD: oprettet
+## Learning Log (sheet, Template v1)
+Columns: ID, Dato, Område, Type, Hvad vi troede eller så, Hvad vi gjorde, Status, Resultat (tal eller bevis), Hvad vi lærte, Hvad vi ændrer, Kilde.
+- Type: Test, Observation, Kundefeedback.
+- Status: Idé, Kører, Afsluttet, Fravalgt, Ukendt.
+- A row needs something in Resultat or Kilde, and is only done when "Hvad vi ændrer" is filled in.
